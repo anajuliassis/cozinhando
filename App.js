@@ -10,12 +10,14 @@ import TelaSalgados from './screens/TelaSalgados';
 import TelaFavoritos from './screens/TelaFavoritos';
 import TelaReceitaCenoura from './screens/TelaReceitaCenoura';
 import TelaReceitaChocolate from './screens/TelaReceitaChocolate';
+import TelaReceitaTrigo from './screens/TelaReceitaTrigo';
 import TelaReceitaParmegiana from './screens/TelaReceitaParmegiana';
 import TelaReceitaLasanha from './screens/TelaReceitaLasanha';
 import TelaReceitaFrango from './screens/TelaReceitaFrango';
 import TelaReceitaEstrogonofe from './screens/TelaReceitaEstrogonofe';
 import TelaReceitaBatata from './screens/TelaReceitaBatata';
 import TelaReceitaCarbonara from './screens/TelaReceitaCarbonara';
+import TelaReceitaPalha from './screens/TelaReceitaPalha';
 
 const Stack = createNativeStackNavigator();
 
@@ -48,6 +50,8 @@ export default function App() {
           <Stack.Screen name="ReceitaEstrogonofe" component={TelaReceitaEstrogonofe} />
           <Stack.Screen name="ReceitaBatata" component={TelaReceitaBatata} />
           <Stack.Screen name="ReceitaCarbonara" component={TelaReceitaCarbonara} />
+          <Stack.Screen name="ReceitaTrigo" component={TelaReceitaTrigo} />
+          <Stack.Screen name="ReceitaPalha" component={TelaReceitaPalha} />
         </Stack.Navigator>
       </NavigationContainer>
     </FavoritosProvider>
