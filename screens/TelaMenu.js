@@ -7,10 +7,6 @@ export default function TelaMenu() {
 
  return (
   <View style={styles.container}>
-   <View style={styles.header}>
-    <Text style={styles.headerText}>Cozinhando com o Chico</Text>
-   </View>
-
    <TouchableOpacity style={[styles.botao, { backgroundColor: '#71968F' }]} onPress={() => navigation.navigate('Doces')}>
     <Text style={styles.botaoTexto}>Doces</Text>
    </TouchableOpacity>
@@ -26,29 +22,14 @@ export default function TelaMenu() {
  );
 }
 
-
 const styles = StyleSheet.create({
  container: {
   flex: 1,
   backgroundColor: '#F5DDC7',
-  alignItems: 'center'
+  alignItems: 'center',
+  justifyContent: 'center' // para centralizar os botões verticalmente
  },
- header: {
-  width: '100%',
-  backgroundColor: '#71968F',
-  padding: 20,
-  alignItems: 'center'
- },
- headerText: {
-  fontSize: 20,
-  color: '#FFF',
-  fontWeight: 'bold'
- },
- buttonsContainer: {
-    flex: 1,                 
-    justifyContent: 'center',
-    alignItems: 'center'     
-  },
+ // header e headerText removidos
  botao: {
   width: 200,
   padding: 18,

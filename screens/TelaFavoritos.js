@@ -7,10 +7,6 @@ export default function TelaFavoritos() {
 
   return (
     <View style={styles.container}>
-      <View style={styles.header}>
-        <Text style={styles.headerText}>Favoritos</Text>
-      </View>
-
       {favoritos.length === 0 ? (
         <Text style={styles.mensagem}>Nenhuma receita adicionada aos favoritos.</Text>
       ) : (
@@ -36,16 +32,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#F5DDC7',
   },
-  header: {
-    backgroundColor: '#C1622D',
-    padding: 20,
-    alignItems: 'center',
-  },
-  headerText: {
-    fontSize: 20,
-    color: '#FFF',
-    fontWeight: 'bold',
-  },
+  // header e headerText removidos
   lista: {
     padding: 20,
     justifyContent: 'center',

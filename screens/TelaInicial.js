@@ -4,9 +4,9 @@ import { View, Text, Image, StyleSheet, TouchableOpacity } from 'react-native';
 export default function TelaInicial({ navigation }) {
  return (
   <View style={styles.container}>
-   <Image source={require('../assets/chico.png')} style={styles.image} />
+   <Image source={require('../assets/brito.png')} style={styles.image} />
    <TouchableOpacity onPress={() => navigation.navigate('Menu')}>
-    <Text style={styles.text}>Cozinhando com o Chico</Text>
+    <Text style={styles.text}>Cozinhando com o Brito</Text>
    </TouchableOpacity>
   </View>
  );
@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
  },
  text: {
   fontSize: 20,
-  color: '#7CA8A1',
+  color: '#C23116',
   fontWeight: 'bold'
  }
 });
