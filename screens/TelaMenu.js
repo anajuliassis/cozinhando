@@ -7,15 +7,15 @@ export default function TelaMenu() {
 
  return (
   <View style={styles.container}>
-   <TouchableOpacity style={[styles.botao, { backgroundColor: '#71968F' }]} onPress={() => navigation.navigate('Doces')}>
+   <TouchableOpacity style={[styles.botao, { backgroundColor: '#C23116' }]} onPress={() => navigation.navigate('Doces')}>
     <Text style={styles.botaoTexto}>Doces</Text>
    </TouchableOpacity>
 
-   <TouchableOpacity style={[styles.botao, { backgroundColor: '#C1622D' }]} onPress={() => navigation.navigate('Salgados')}>
+   <TouchableOpacity style={[styles.botao, { backgroundColor: '#C23116' }]} onPress={() => navigation.navigate('Salgados')}>
     <Text style={styles.botaoTexto}>Salgados</Text>
    </TouchableOpacity>
 
-   <TouchableOpacity style={[styles.botao, { backgroundColor: '#D6A528' }]} onPress={() => navigation.navigate('Favoritos')}>
+   <TouchableOpacity style={[styles.botao, { backgroundColor: '#C23116' }]} onPress={() => navigation.navigate('Favoritos')}>
     <Text style={styles.botaoTexto}>Favoritos</Text>
    </TouchableOpacity>
   </View>

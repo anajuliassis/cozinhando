@@ -69,7 +69,7 @@ const styles = StyleSheet.create({
  nome: {
   marginTop: 8,
   fontSize: 14,
-  color: '#C1622D',
+  color: '#C23116',
   textAlign: 'center',
   fontWeight: '600'
  }
