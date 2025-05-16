@@ -58,4 +58,4 @@ headerBackImageTintColor: '#FFF',
 </NavigationContainer> 
 </FavoritosProvider> 
 ); 
-} 
+}

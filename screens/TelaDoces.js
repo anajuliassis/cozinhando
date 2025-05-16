@@ -70,4 +70,4 @@ color: '#C23116',
 textAlign: 'center', 
 fontWeight: '600' 
 } 
-});
+}); 
