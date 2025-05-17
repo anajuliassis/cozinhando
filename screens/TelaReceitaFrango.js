@@ -32,12 +32,12 @@ export default function TelaReceitaFrango() {
       <View style={styles.header}>
         <Text style={styles.titulo}>Frango à delícia</Text>
         <TouchableOpacity onPress={alternarFavorito}>
-          <AntDesign name={favorito ? 'star' : 'staro'} size={24} color="#46210B" />
+          <AntDesign name={favorito ? 'star' : 'staro'} size={24} color="#B15129" />
         </TouchableOpacity>
       </View>
 
       <View style={styles.tempoContainer}>
-        <AntDesign name="clockcircleo" size={18} color="#46210B" />
+        <AntDesign name="clockcircleo" size={18} color="#B15129" />
         <Text style={styles.tempoTexto}>45min</Text>
       </View>
 
@@ -78,25 +78,25 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     padding: 15,
   },
-  titulo: { fontSize: 24, fontWeight: 'bold', color: '#4D2C2D' },
+  titulo: { fontSize: 24, fontWeight: 'bold', color: '#B15129' },
   tempoContainer: {
     flexDirection: 'row',
     alignItems: 'center',
     paddingHorizontal: 15,
     marginTop: 5,
   },
-  tempoTexto: { marginLeft: 5, fontSize: 16, color: '#4D2C2D' },
+  tempoTexto: { marginLeft: 5, fontSize: 16, color: '#B15129' },
   subtitulo: {
     fontSize: 18,
     fontWeight: 'bold',
-    color: '#46210B',
+    color: '#B15129',
     paddingHorizontal: 15,
     marginTop: 20,
     marginBottom: 8,
   },
   texto: {
     fontSize: 16,
-    color: '#46210B',
+    color: '#B15129',
     lineHeight: 24,
     paddingHorizontal: 15,
     marginBottom: 20,

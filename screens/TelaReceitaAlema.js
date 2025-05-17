@@ -20,11 +20,11 @@ return (
 <View style={styles.header}>
 <Text style={styles.titulo}>Torta Alemã</Text>
 <TouchableOpacity onPress={alternarFavorito}>
-<AntDesign name={favorito ? 'star' : 'staro'} size={24} color="#46210B" />
+<AntDesign name={favorito ? 'star' : 'staro'} size={24} color="#B15129" />
 </TouchableOpacity>
 </View>
 <View style={styles.tempoContainer}>
-<AntDesign name="clockcircleo" size={18} color="#46210B" />
+<AntDesign name="clockcircleo" size={18} color="#B15129" />
 <Text style={styles.tempoTexto}>20min</Text>
 </View>
 <Text style={styles.sectionTitle}>Ingredientes</Text>
@@ -74,7 +74,7 @@ padding: 15
 titulo: {
 fontSize: 24,
 fontWeight: 'bold',
-color: '#46210B'
+color: '#B15129'
 },
 tempoContainer: {
 flexDirection: 'row',
@@ -85,12 +85,12 @@ marginTop: 5
 tempoTexto: {
 marginLeft: 5,
 fontSize: 16,
-color: '#46210B'
+color: '#B15129'
 },
 sectionTitle: {
 fontSize: 18,
 fontWeight: 'bold',
-color: '#46210B',
+color: '#B15129',
 paddingHorizontal: 15,
 marginTop: 20,
 marginBottom: 8
@@ -98,14 +98,14 @@ marginBottom: 8
 sectionSubTitle: {
 fontSize: 16,
 fontWeight: 'bold',
-color: '#46210B',
+color: '#B15129',
 paddingHorizontal: 15,
 marginTop: 10,
 marginBottom: 4
 },
 text: {
 fontSize: 16,
-color: '#46210B',
+color: '#B15129',
 lineHeight: 24,
 paddingHorizontal: 15,
 marginBottom: 20
