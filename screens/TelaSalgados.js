@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#F5DDC7'
   },
-  // Removido: header e headerText
+  
   lista: {
     padding: 20,
     justifyContent: 'center',

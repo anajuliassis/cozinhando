@@ -27,9 +27,9 @@ const styles = StyleSheet.create({
   flex: 1,
   backgroundColor: '#F5DDC7',
   alignItems: 'center',
-  justifyContent: 'center' // para centralizar os botões verticalmente
+  justifyContent: 'center' 
  },
- // header e headerText removidos
+
  botao: {
   width: 200,
   padding: 18,

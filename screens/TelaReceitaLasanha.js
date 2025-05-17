@@ -26,15 +26,15 @@ export default function TelaReceitaLasanhaFrango() {
   }
 
   return (
-    <ScrollView style={styles.container}>
-      <Image source={require('../assets/lasanha2.jpg')} style={styles.imagem} />
-
-      <View style={styles.header}>
-        <Text style={styles.titulo}>Lasanha</Text>
-        <TouchableOpacity onPress={alternarFavorito}>
-          <AntDesign name={favorito ? 'star' : 'staro'} size={24} color="#46210B" />
-        </TouchableOpacity>
-      </View>
+  <ScrollView style={styles.container}>
+       <Image source={require('../assets/lasanha2.jpg')} style={styles.imagem} />
+ 
+       <View style={styles.header}>
+         <Text style={styles.titulo}>Lasanha</Text>
+         <TouchableOpacity onPress={alternarFavorito}>
+           <AntDesign name={favorito ? 'star' : 'staro'} size={24} color="#46210B" />
+         </TouchableOpacity>
+       </View>
 
       <View style={styles.tempoContainer}>
         <AntDesign name="clockcircleo" size={18} color="#46210B" />

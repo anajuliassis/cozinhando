@@ -32,7 +32,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#F5DDC7',
   },
-  // header e headerText removidos
+
   lista: {
     padding: 20,
     justifyContent: 'center',
@@ -58,7 +58,7 @@ const styles = StyleSheet.create({
   mensagem: {
     marginTop: 50,
     textAlign: 'center',
-    color: '#4D7169',
+    color: '#46210B',
     fontSize: 16,
   },
 });
