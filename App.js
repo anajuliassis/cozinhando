@@ -36,24 +36,24 @@ headerBackTitle: null,
 headerBackImageTintColor: '#FFF', 
 }} 
 > 
-<Stack.Screen name="Inicial" component={TelaInicial} /> 
-<Stack.Screen name="Menu" component={TelaMenu} /> 
-<Stack.Screen name="Doces" component={TelaDoces} /> 
-<Stack.Screen name="Salgados" component={TelaSalgados} /> 
-<Stack.Screen name="Favoritos" component={TelaFavoritos} /> 
-<Stack.Screen name="ReceitaCenoura" component={TelaReceitaCenoura} /> 
+<Stack.Screen name="Inicial" component={TelaInicial} options={{ title: 'Início' }}/> 
+<Stack.Screen name="Menu" component={TelaMenu}options={{ title: 'Menu' }} /> 
+<Stack.Screen name="Doces" component={TelaDoces}options={{ title: 'Doces' }} /> 
+<Stack.Screen name="Salgados" component={TelaSalgados} options={{ title: 'Salgados' }}/> 
+<Stack.Screen name="Favoritos" component={TelaFavoritos} options={{ title: 'Favoritos' }}/> 
+<Stack.Screen name="ReceitaCenoura" component={TelaReceitaCenoura}options={{ title: 'Bolo de Cenoura' }} /> 
  
-<Stack.Screen name="ReceitaChocolate" component={TelaReceitaChocolate} /> 
-<Stack.Screen name="ReceitaParmegiana" component={TelaReceitaParmegiana} /> 
-<Stack.Screen name="ReceitaLasanha" component={TelaReceitaLasanha} /> 
-<Stack.Screen name="ReceitaFrango" component={TelaReceitaFrango} /> 
-<Stack.Screen name="ReceitaEstrogonofe" component={TelaReceitaEstrogonofe} /> 
-<Stack.Screen name="ReceitaBatata" component={TelaReceitaBatata} /> 
-<Stack.Screen name="ReceitaCarbonara" component={TelaReceitaCarbonara} /> 
-<Stack.Screen name="ReceitaTrigo" component={TelaReceitaTrigo} /> 
-<Stack.Screen name="ReceitaPalha" component={TelaReceitaPalha} /> 
-<Stack.Screen name="ReceitaAlema" component={TelaReceitaAlema} /> 
-<Stack.Screen name="ReceitaCheesecake" component={TelaReceitaCheesecake} /> 
+<Stack.Screen name="ReceitaChocolate" component={TelaReceitaChocolate}options={{ title: 'Bolo de Chocolate' }} /> 
+<Stack.Screen name="ReceitaParmegiana" component={TelaReceitaParmegiana} options={{ title: 'Parmegiana' }}/> 
+<Stack.Screen name="ReceitaLasanha" component={TelaReceitaLasanha}options={{ title: 'Lasanha' }} /> 
+<Stack.Screen name="ReceitaFrango" component={TelaReceitaFrango}options={{ title: 'Frango à delícia' }} /> 
+<Stack.Screen name="ReceitaEstrogonofe" component={TelaReceitaEstrogonofe} options={{ title: 'Estrogonofe' }}/> 
+<Stack.Screen name="ReceitaBatata" component={TelaReceitaBatata}options={{ title: 'Batata recheada' }} /> 
+<Stack.Screen name="ReceitaCarbonara" component={TelaReceitaCarbonara} options={{ title: 'Carbonara' }}/> 
+<Stack.Screen name="ReceitaTrigo" component={TelaReceitaTrigo} options={{ title: 'Bolo de Trigo' }}/> 
+<Stack.Screen name="ReceitaPalha" component={TelaReceitaPalha} options={{ title: 'Palha italiana' }}/> 
+<Stack.Screen name="ReceitaAlema" component={TelaReceitaAlema} options={{ title: 'Torta Alemã' }}/> 
+<Stack.Screen name="ReceitaCheesecake" component={TelaReceitaCheesecake}options={{ title: 'Cheesecake' }} /> 
 </Stack.Navigator> 
 </NavigationContainer> 
 </FavoritosProvider> 
